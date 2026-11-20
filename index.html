@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Резюме Михайлюк</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+        }
+        .resume {
+            display: flex;
+            flex-direction: row-reverse;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .sidebar {
+            background-color: #fed0ff;
+            padding: 20px;
+            width: 300px;
+        }
+        .main-content {
+            padding: 20px;
+            flex: 1;
+        }
+        .sidebar img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p, li {
+            color: #444;
+            line-height: 1.5;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        
+        <!-- Левая колонка -->
+        <div class="sidebar">
+            <!-- ВАЖНО: здесь должна быть ссылка на твою картинку в папке img -->
+            <img src="img/photo.png" alt="Моє фото">
+            
+            <h3>Контакти:</h3>
+            <p>
+                Т: <a href="tel:+380930000000">+38 093 000 00 00</a><br>
+                E: <a href="mailto:mymail@gmail.com">mymail@gmail.com</a>
+            </p>
+            
+            <h3>Tech skills</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Scrum</li>
+                <li>Agile</li>
+                <li>GTD</li>
+                <li>Teamwork</li>
+            </ul>
+        </div>
+
+        <!-- Правая колонка -->
+        <div class="main-content">
+            <h1>Full Stack Developer</h1>
+            <h2>Михайлюк Сергій</h2>
+            
+            <p>Студент 2 курсу спеціальності "Комп'ютерні науки". Вивчаю веб-розробку, цікавлюся створенням сучасних сайтів та інтерфейсів.</p>
+            
+            <h3>Проєкти</h3>
+            <ol>
+                <li><a href="#">https://github.com</a> ... [ HTML5, CSS3 ]</li>
+                <li><a href="#">https://github.com</a> ... [ JavaScript ]</li>
+                <li><a href="#">https://github.com</a> ... [ CorelDraw, PhotoShop ]</li>
+            </ol>
+
+            <h3>Досвід роботи</h3>
+            <p><strong>Front-End Developer Freelance</strong></p>
+            <p>Вересень 2026 - дотепер | Україна</p>
+            <ul>
+                <li>Верстка адаптивних сторінок за макетами (Figma).</li>
+                <li>Написання простих скриптів на JavaScript.</li>
+                <li>Виправлення помилок та оптимізація коду.</li>
+            </ul>
+
+            <h3>Освіта</h3>
+            <p><strong>Смілянський технологічний фаховий коледж</strong></p>
+            <p>Фаховий молодший бакалавр з комп'ютерних наук</p>
+            <p>Вересень 2025 - дотепер | Україна</p>
+        </div>
+
+    </div>
+</body>
+</html>
